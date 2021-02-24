@@ -60,7 +60,7 @@ const elementsStartingWithAVowel = strings => {
   return strings.filter(word => {
     const firstLetter = word[0].toLowerCase();
     return xx.includes(firstLetter);
-  })
+  });
 };
 
 const removeSpaces = string => {
